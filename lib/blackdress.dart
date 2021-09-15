@@ -55,7 +55,7 @@ class BlackSaree extends StatelessWidget {
             CarouselSlider(
               options: CarouselOptions(
                 viewportFraction: 0.45,
-                autoPlayAnimationDuration: const Duration(milliseconds: 100),
+                autoPlayAnimationDuration: const Duration(milliseconds: 1000),
                 autoPlay: true,
                 enlargeCenterPage: true,
               ),
